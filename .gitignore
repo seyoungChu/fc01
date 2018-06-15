@@ -1,0 +1,11 @@
+Games/Games.csproj
+Games/Games.Editor.csproj
+Games/Games.Plugins.csproj
+Games/Games.sln
+Games/.vs/Games/xs/UserPrefs.xml
+Games/.vs/Games/xs/sqlite3/db.lock
+Games/.vs/Games/xs/sqlite3/storage.ide
+Games/.vs/Games/xs/sqlite3/storage.ide-shm
+Games/.vs/Games/xs/sqlite3/storage.ide-wal
+Games/Library
+Games/Library/

@@ -1,0 +1,1772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1475989175926294}
+  m_IsPrefabParent: 1
+--- !u!1 &1475989175926294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4827116038350092}
+  - component: {fileID: 114372465310321268}
+  m_Layer: 0
+  m_Name: watch_tower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4827116038350092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475989175926294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114372465310321268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475989175926294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: nd_lvl1_bd_watch_tower_lv2_barrel_001
+    boundsData:
+    - {x: 0, y: -37.000004, z: 0}
+    - {x: 111.99999, y: 36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -55.999996, y: -55.000004, z: 0}
+    - {x: 55.999996, y: -55.000004, z: 0}
+    - {x: -55.999996, y: -19.000006, z: 0}
+    - {x: 55.999996, y: -19.000006, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18359473, y: 0.23339942}
+    - {x: 0.18359473, y: 0.34277245}
+    - {x: 0.21874902, y: 0.23339942}
+    - {x: 0.21874902, y: 0.34277245}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3de3d9688671f9847a1142eca10748aa
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv9_001
+    boundsData:
+    - {x: 0.0000038146973, y: -19.5, z: 0}
+    - {x: 236, y: 233, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -118, y: -136, z: 0}
+    - {x: 118.00001, y: -136, z: 0}
+    - {x: -118, y: 97, z: 0}
+    - {x: 118.00001, y: 97, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0019541015}
+    - {x: 0.23242089, y: 0.0019541015}
+    - {x: 0.0019541015, y: 0.2294912}
+    - {x: 0.23242089, y: 0.2294912}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 703106ead57c6b64ba3e6503e3fc7ebd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv10_barrel_003
+    boundsData:
+    - {x: -0.0000076293945, y: 13.999992, z: 0}
+    - {x: 181.99998, y: 161.99998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -91, y: -67, z: 0}
+    - {x: 90.999985, y: -67, z: 0}
+    - {x: -91, y: 94.999985, z: 0}
+    - {x: 90.999985, y: 94.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.23339942}
+    - {x: 0.17968652, y: 0.23339942}
+    - {x: 0.0019541015, y: 0.39160058}
+    - {x: 0.17968652, y: 0.39160058}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: fbe8743f6a9b73940be01ad202de9e81
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv7_barrel_003
+    boundsData:
+    - {x: 0, y: 4.0000076, z: 0}
+    - {x: 175.99998, y: 156, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87.99999, y: -73.99999, z: 0}
+    - {x: 87.99999, y: -73.99999, z: 0}
+    - {x: -87.99999, y: 82.00001, z: 0}
+    - {x: 87.99999, y: 82.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.21777442, y: 0.41211036}
+    - {x: 0.38964745, y: 0.41211036}
+    - {x: 0.21777442, y: 0.5644522}
+    - {x: 0.38964745, y: 0.5644522}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: e9c608552e3fd1d4fa09aacfc5e61f8c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv6_barrel_003
+    boundsData:
+    - {x: 0.0000076293945, y: 3.999998, z: 0}
+    - {x: 156, y: 135.99998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -77.99999, y: -63.999996, z: 0}
+    - {x: 78.00001, y: -63.999996, z: 0}
+    - {x: -77.99999, y: 71.99999, z: 0}
+    - {x: 78.00001, y: 71.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5693369, y: 0.5722666}
+    - {x: 0.72167873, y: 0.5722666}
+    - {x: 0.5693369, y: 0.7050772}
+    - {x: 0.72167873, y: 0.7050772}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 21fa2172481482c4a9192b351ef1bb18
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv10_barrel_001
+    boundsData:
+    - {x: 0, y: 13.99999, z: 0}
+    - {x: 162, y: 145.99998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -81, y: -59.000004, z: 0}
+    - {x: 81, y: -59.000004, z: 0}
+    - {x: -81, y: 86.999985, z: 0}
+    - {x: 81, y: 86.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.85449314, y: 0.2832041}
+    - {x: 0.85449314, y: 0.44140527}
+    - {x: 0.99706936, y: 0.2832041}
+    - {x: 0.99706936, y: 0.44140527}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 64d2a44389ba8f7439645e1b046e0111
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv6_barrel_001
+    boundsData:
+    - {x: 0.0000076293945, y: 3.999998, z: 0}
+    - {x: 140, y: 127.999985, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -69.99999, y: -59.999996, z: 0}
+    - {x: 70.00001, y: -59.999996, z: 0}
+    - {x: -69.99999, y: 67.99999, z: 0}
+    - {x: 70.00001, y: 67.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7177744, y: 0.7226572}
+    - {x: 0.7177744, y: 0.85937405}
+    - {x: 0.8427725, y: 0.7226572}
+    - {x: 0.8427725, y: 0.85937405}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: c9af5e6b99cf4ff459fe4ed9accc8e71
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv10_001
+    boundsData:
+    - {x: 0.0000038146973, y: -19.5, z: 0}
+    - {x: 236, y: 233, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -118, y: -136, z: 0}
+    - {x: 118.00001, y: -136, z: 0}
+    - {x: -118, y: 97, z: 0}
+    - {x: 118.00001, y: 97, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.0019541015}
+    - {x: 0.23242089, y: 0.0019541015}
+    - {x: 0.0019541015, y: 0.2294912}
+    - {x: 0.23242089, y: 0.2294912}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6ff498f89f967944b5396d65133c200
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv6_barrel_002
+    boundsData:
+    - {x: 0.0000076293945, y: 3.9999943, z: 0}
+    - {x: 148, y: 134, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -73.99999, y: -63.000004, z: 0}
+    - {x: 74.00001, y: -63.000004, z: 0}
+    - {x: -73.99999, y: 70.99999, z: 0}
+    - {x: 74.00001, y: 70.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5693369, y: 0.7089853}
+    - {x: 0.71386623, y: 0.7089853}
+    - {x: 0.5693369, y: 0.8398428}
+    - {x: 0.71386623, y: 0.8398428}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5e7ca5a81a4771e43becd011015ec053
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv9_barrel_001
+    boundsData:
+    - {x: 0, y: 13.99999, z: 0}
+    - {x: 162, y: 145.99998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -81, y: -59.000004, z: 0}
+    - {x: 81, y: -59.000004, z: 0}
+    - {x: -81, y: 86.999985, z: 0}
+    - {x: 81, y: 86.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.85449314, y: 0.2832041}
+    - {x: 0.85449314, y: 0.44140527}
+    - {x: 0.99706936, y: 0.2832041}
+    - {x: 0.99706936, y: 0.44140527}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 23b50d39c655d534ebb150fceddc6a14
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv8_barrel_001
+    boundsData:
+    - {x: -0.0000038146973, y: 4.0000076, z: 0}
+    - {x: 166, y: 148, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -83, y: -69.99999, z: 0}
+    - {x: 82.99999, y: -69.99999, z: 0}
+    - {x: -83, y: 78.00001, z: 0}
+    - {x: 82.99999, y: 78.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8535166, y: 0.44531348}
+    - {x: 0.8535166, y: 0.6074209}
+    - {x: 0.9980459, y: 0.44531348}
+    - {x: 0.9980459, y: 0.6074209}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 244b4e770d03bd24faa0eebbf351d5a7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv9_barrel_002
+    boundsData:
+    - {x: -0.0000076293945, y: 11.500004, z: 0}
+    - {x: 181.99998, y: 157, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -91, y: -67, z: 0}
+    - {x: 90.999985, y: -67, z: 0}
+    - {x: -91, y: 90.00001, z: 0}
+    - {x: 90.999985, y: 90.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.3955088}
+    - {x: 0.17968652, y: 0.3955088}
+    - {x: 0.0019541015, y: 0.5488272}
+    - {x: 0.17968652, y: 0.5488272}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1c0a8b667e7aa47468a23cacd5c763a4
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv5_001
+    boundsData:
+    - {x: 0, y: -18.000004, z: 0}
+    - {x: 191.99998, y: 194, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95.99999, y: -115, z: 0}
+    - {x: 95.99999, y: -115, z: 0}
+    - {x: -95.99999, y: 78.99999, z: 0}
+    - {x: 95.99999, y: 78.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4707041, y: 0.19336036}
+    - {x: 0.4707041, y: 0.3808584}
+    - {x: 0.6601553, y: 0.19336036}
+    - {x: 0.6601553, y: 0.3808584}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 04147766f3f55904aa10c327b3acd24d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv8_barrel_002
+    boundsData:
+    - {x: 0, y: 4.0000076, z: 0}
+    - {x: 175.99998, y: 156, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87.99999, y: -73.99999, z: 0}
+    - {x: 87.99999, y: -73.99999, z: 0}
+    - {x: -87.99999, y: 82.00001, z: 0}
+    - {x: 87.99999, y: 82.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.5527353}
+    - {x: 0.17382714, y: 0.5527353}
+    - {x: 0.0019541015, y: 0.7050772}
+    - {x: 0.17382714, y: 0.7050772}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: cbc3ee3f8c4b0534082912c2f40f38ed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv2_barrel_002
+    boundsData:
+    - {x: -0.0000076293945, y: -41.999996, z: 0}
+    - {x: 125.99999, y: 40, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -63.000004, y: -61.999996, z: 0}
+    - {x: 62.99999, y: -61.999996, z: 0}
+    - {x: -63.000004, y: -21.999998, z: 0}
+    - {x: 62.99999, y: -21.999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.42773536, y: 0.22656348}
+    - {x: 0.42773536, y: 0.3496084}
+    - {x: 0.4667959, y: 0.22656348}
+    - {x: 0.4667959, y: 0.3496084}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: afa9ae601b4333b44892a75db0cb6c2d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv4_barrel_002
+    boundsData:
+    - {x: 0, y: -5.500004, z: 0}
+    - {x: 138, y: 115, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -69, y: -63.000004, z: 0}
+    - {x: 69, y: -63.000004, z: 0}
+    - {x: -69, y: 51.999996, z: 0}
+    - {x: 69, y: 51.999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8789072, y: 0.14453223}
+    - {x: 0.8789072, y: 0.2792959}
+    - {x: 0.99121, y: 0.14453223}
+    - {x: 0.99121, y: 0.2792959}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: fa4c694974932f5438da462879b96ded
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv9_barrel_003
+    boundsData:
+    - {x: -0.0000076293945, y: 13.999992, z: 0}
+    - {x: 181.99998, y: 161.99998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -91, y: -67, z: 0}
+    - {x: 90.999985, y: -67, z: 0}
+    - {x: -91, y: 94.999985, z: 0}
+    - {x: 90.999985, y: 94.999985, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.23339942}
+    - {x: 0.17968652, y: 0.23339942}
+    - {x: 0.0019541015, y: 0.39160058}
+    - {x: 0.17968652, y: 0.39160058}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0328a2cf2ea887347b7f9d3230b1fc1d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv1_001
+    boundsData:
+    - {x: 0, y: -25, z: 0}
+    - {x: 191.99998, y: 180, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95.99999, y: -115, z: 0}
+    - {x: 95.99999, y: -115, z: 0}
+    - {x: -95.99999, y: 65, z: 0}
+    - {x: 95.99999, y: 65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.46679786, y: 0.3847666}
+    - {x: 0.6542959, y: 0.3847666}
+    - {x: 0.46679786, y: 0.5605459}
+    - {x: 0.6542959, y: 0.5605459}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9ed41a6f4f0b4814583e39f0a97fe64f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv1_barrel_002
+    boundsData:
+    - {x: 0.000005722046, y: -35.5, z: 0}
+    - {x: 100, y: 31.000006, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -49.999996, y: -51.000004, z: 0}
+    - {x: 50.000008, y: -51.000004, z: 0}
+    - {x: -49.999996, y: -19.999998, z: 0}
+    - {x: 50.000008, y: -19.999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18359473, y: 0.34668067}
+    - {x: 0.18359473, y: 0.44433495}
+    - {x: 0.2138662, y: 0.34668067}
+    - {x: 0.2138662, y: 0.44433495}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 72eda5cd2a896bf4190b957607c8491e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv2_001
+    boundsData:
+    - {x: 0, y: -19, z: 0}
+    - {x: 186, y: 192, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -93, y: -115, z: 0}
+    - {x: 93, y: -115, z: 0}
+    - {x: -93, y: 77, z: 0}
+    - {x: 93, y: 77, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.23632911, y: 0.22656348}
+    - {x: 0.23632911, y: 0.40820214}
+    - {x: 0.42382714, y: 0.22656348}
+    - {x: 0.42382714, y: 0.40820214}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 951e5df4db0aaec4d801fb3d1bf1585d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv5_barrel_001
+    boundsData:
+    - {x: 0.0000076293945, y: 0.5000019, z: 0}
+    - {x: 140, y: 123.000015, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -69.99999, y: -61.000004, z: 0}
+    - {x: 70.00001, y: -61.000004, z: 0}
+    - {x: -69.99999, y: 62.000008, z: 0}
+    - {x: 70.00001, y: 62.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.84668064, y: 0.73925877}
+    - {x: 0.9833975, y: 0.73925877}
+    - {x: 0.84668064, y: 0.85937405}
+    - {x: 0.9833975, y: 0.85937405}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 026bc7c1c8c5c0949afa1f4e2db26ee5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv4_001
+    boundsData:
+    - {x: -0.0000076293945, y: -19.500004, z: 0}
+    - {x: 189.99998, y: 191, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95, y: -115, z: 0}
+    - {x: 94.999985, y: -115, z: 0}
+    - {x: -95, y: 75.99999, z: 0}
+    - {x: 94.999985, y: 75.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.66406345, y: 0.19336036}
+    - {x: 0.66406345, y: 0.37890527}
+    - {x: 0.850585, y: 0.19336036}
+    - {x: 0.850585, y: 0.37890527}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3df49a52c8f34c04881e45f0dd48067a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv3_barrel_001
+    boundsData:
+    - {x: 0, y: -41.000004, z: 0}
+    - {x: 130, y: 36, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -65, y: -59.000004, z: 0}
+    - {x: 65, y: -59.000004, z: 0}
+    - {x: -65, y: -23.000006, z: 0}
+    - {x: 65, y: -23.000006, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.42773536, y: 0.3535166}
+    - {x: 0.42773536, y: 0.48046777}
+    - {x: 0.46288964, y: 0.3535166}
+    - {x: 0.46288964, y: 0.48046777}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: dd88e615acd4df8418984cb702e1bec1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv4_barrel_001
+    boundsData:
+    - {x: 0, y: -6.499996, z: 0}
+    - {x: 130, y: 105.000015, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -65, y: -59.000004, z: 0}
+    - {x: 65, y: -59.000004, z: 0}
+    - {x: -65, y: 46.00001, z: 0}
+    - {x: 65, y: 46.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3535166, y: 0.7207041}
+    - {x: 0.48046777, y: 0.7207041}
+    - {x: 0.3535166, y: 0.82324123}
+    - {x: 0.48046777, y: 0.82324123}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1be717a95cde1b24197a6cd0eb3a473d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv7_barrel_002
+    boundsData:
+    - {x: 0, y: 4.0000076, z: 0}
+    - {x: 175.99998, y: 156, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87.99999, y: -73.99999, z: 0}
+    - {x: 87.99999, y: -73.99999, z: 0}
+    - {x: -87.99999, y: 82.00001, z: 0}
+    - {x: 87.99999, y: 82.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.39355567, y: 0.5644541}
+    - {x: 0.56542873, y: 0.5644541}
+    - {x: 0.39355567, y: 0.7167959}
+    - {x: 0.56542873, y: 0.7167959}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6d12f4649961b24387d174707bffbfe
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv8_001
+    boundsData:
+    - {x: 0.0000038146973, y: -22.999996, z: 0}
+    - {x: 236, y: 226, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -118, y: -136, z: 0}
+    - {x: 118.00001, y: -136, z: 0}
+    - {x: -118, y: 90.00001, z: 0}
+    - {x: 118.00001, y: 90.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.23632911, y: 0.0019541015}
+    - {x: 0.4667959, y: 0.0019541015}
+    - {x: 0.23632911, y: 0.22265527}
+    - {x: 0.4667959, y: 0.22265527}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5ae899f8d27a0a241a92e230949664da
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv6_001
+    boundsData:
+    - {x: 0, y: -12.499996, z: 0}
+    - {x: 191.99998, y: 205, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95.99999, y: -115, z: 0}
+    - {x: 95.99999, y: -115, z: 0}
+    - {x: -95.99999, y: 90.00001, z: 0}
+    - {x: 95.99999, y: 90.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4707041, y: 0.0019541015}
+    - {x: 0.4707041, y: 0.18945214}
+    - {x: 0.6708975, y: 0.0019541015}
+    - {x: 0.6708975, y: 0.18945214}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0550a20225ef8e4488aeb1d4217f6412
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv7_001
+    boundsData:
+    - {x: 0, y: -12.499996, z: 0}
+    - {x: 191.99998, y: 205, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95.99999, y: -115, z: 0}
+    - {x: 95.99999, y: -115, z: 0}
+    - {x: -95.99999, y: 90.00001, z: 0}
+    - {x: 95.99999, y: 90.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.67480564, y: 0.0019541015}
+    - {x: 0.67480564, y: 0.18945214}
+    - {x: 0.87499905, y: 0.0019541015}
+    - {x: 0.87499905, y: 0.18945214}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: f7aa55187e7fe3e4ebaf23fe20ad1f30
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv8_barrel_003
+    boundsData:
+    - {x: 0, y: 4.0000076, z: 0}
+    - {x: 175.99998, y: 156, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -87.99999, y: -73.99999, z: 0}
+    - {x: 87.99999, y: -73.99999, z: 0}
+    - {x: -87.99999, y: 82.00001, z: 0}
+    - {x: 87.99999, y: 82.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.17773536, y: 0.5683603}
+    - {x: 0.3496084, y: 0.5683603}
+    - {x: 0.17773536, y: 0.7207022}
+    - {x: 0.3496084, y: 0.7207022}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3d11a58a637d761429f35bfb3fd0be0d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv5_barrel_002
+    boundsData:
+    - {x: 0, y: 0.4999962, z: 0}
+    - {x: 143.99998, y: 127, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -71.99999, y: -63.000004, z: 0}
+    - {x: 71.99999, y: -63.000004, z: 0}
+    - {x: -71.99999, y: 63.999996, z: 0}
+    - {x: 71.99999, y: 63.999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8535166, y: 0.6113291}
+    - {x: 0.9941397, y: 0.6113291}
+    - {x: 0.8535166, y: 0.7353506}
+    - {x: 0.9941397, y: 0.7353506}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 75e62508f7fa77547a689f52ce89b947
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv7_barrel_001
+    boundsData:
+    - {x: -0.0000038146973, y: 4.0000076, z: 0}
+    - {x: 166, y: 148, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -83, y: -69.99999, z: 0}
+    - {x: 82.99999, y: -69.99999, z: 0}
+    - {x: -83, y: 78.00001, z: 0}
+    - {x: 82.99999, y: 78.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.7089853}
+    - {x: 0.16406152, y: 0.7089853}
+    - {x: 0.0019541015, y: 0.8535147}
+    - {x: 0.16406152, y: 0.8535147}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ae9bb642fbe02c428ce4dc8f8838502
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv3_barrel_002
+    boundsData:
+    - {x: -0.0000038146973, y: -2.9999943, z: 0}
+    - {x: 142, y: 122, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -71, y: -63.999996, z: 0}
+    - {x: 70.99999, y: -63.999996, z: 0}
+    - {x: -71, y: 58.000008, z: 0}
+    - {x: 70.99999, y: 58.000008, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8789072, y: 0.0019541015}
+    - {x: 0.8789072, y: 0.14062402}
+    - {x: 0.9980459, y: 0.0019541015}
+    - {x: 0.9980459, y: 0.14062402}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: d683b8cd83d40284baac4330c266738e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv5_barrel_003
+    boundsData:
+    - {x: -0.0000038146973, y: 0.4999962, z: 0}
+    - {x: 150, y: 127, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -75, y: -63.000004, z: 0}
+    - {x: 74.99999, y: -63.000004, z: 0}
+    - {x: -75, y: 63.999996, z: 0}
+    - {x: 74.99999, y: 63.999996, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7255869, y: 0.5722666}
+    - {x: 0.7255869, y: 0.71874905}
+    - {x: 0.8496084, y: 0.5722666}
+    - {x: 0.8496084, y: 0.71874905}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: d09b064636fb60a47a1c206dada2ea82
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv1_barrel_001
+    boundsData:
+    - {x: -0.000005722046, y: -32.999996, z: 0}
+    - {x: 86, y: 25.999998, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -43.000004, y: -45.999996, z: 0}
+    - {x: 42.999992, y: -45.999996, z: 0}
+    - {x: -43.000004, y: -19.999998, z: 0}
+    - {x: 42.999992, y: -19.999998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.18359473, y: 0.44824317}
+    - {x: 0.18359473, y: 0.5322256}
+    - {x: 0.20898339, y: 0.44824317}
+    - {x: 0.20898339, y: 0.5322256}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 08a95c04ec01d7f4eb1bcfe533f6096a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv3_001
+    boundsData:
+    - {x: -0.0000076293945, y: -20.000004, z: 0}
+    - {x: 189.99998, y: 190, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -95, y: -115, z: 0}
+    - {x: 94.999985, y: -115, z: 0}
+    - {x: -95, y: 74.99999, z: 0}
+    - {x: 94.999985, y: 74.99999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.66406345, y: 0.38281348}
+    - {x: 0.8496084, y: 0.38281348}
+    - {x: 0.66406345, y: 0.5683584}
+    - {x: 0.8496084, y: 0.5683584}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9fad7165c3ef5e441a36bb5340590f7c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: nd_lvl1_bd_watch_tower_lv10_barrel_002
+    boundsData:
+    - {x: -0.0000076293945, y: 11.500004, z: 0}
+    - {x: 181.99998, y: 157, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 420, y: 420, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -91, y: -67, z: 0}
+    - {x: 90.999985, y: -67, z: 0}
+    - {x: -91, y: 90.00001, z: 0}
+    - {x: 90.999985, y: 90.00001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.0019541015, y: 0.3955088}
+    - {x: 0.17968652, y: 0.3955088}
+    - {x: 0.0019541015, y: 0.5488272}
+    - {x: 0.17968652, y: 0.5488272}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+    materialId: 0
+    sourceTextureGUID: fc5c47ee67edcbe48b02226bd26ba271
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: f604ae79bdfcf409ab3a12d890bab752, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 4487c3522f5fb4b00bddb588e711a89a, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: e4f627bf10fb4445db1e58a19deb818e
+  spriteCollectionName: watch_tower
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 0.5
+  buildKey: 31786883
+  dataGuid: b4f8cf225cd17483587b931711c3b1e7
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

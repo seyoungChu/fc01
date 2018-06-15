@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 3300000}
+  - component: {fileID: 2300000}
+  m_Layer: 0
+  m_Name: Leaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0.25319195, y: 0.3375333, z: -0.09478205, w: 0.9016549}
+  m_LocalPosition: {x: 59.796032, y: 0.03521979, z: 44.0273}
+  m_LocalScale: {x: 13.596234, y: 13.596234, z: 13.596234}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3dde63d4dc052674e9200d8eb8623922, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1002 &2300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef92d92f13d9bf7429cb05159159d2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _materialFoldout: 1
+  _meshComponentsFoldout: 0
+  _meshEditingFoldout: 0
+  _randomFoldout: 0
+  _decalCombiningAndLifeManagementFoldout: 0
+  _flowFoldout: 0
+  i_colors: 1
+  i_boneWeights: 1
+  i_uv2: 0
+  i_material: {fileID: 2100000, guid: 3dde63d4dc052674e9200d8eb8623922, type: 2}
+  i_bitOffset: 0.002
+  i_normalThreshold: 90
+  i_uvGenerationMode: 0
+  i_uv2GenerationMode: 1
+  i_decalBoneWeightQuality: 2
+  i_uvOffset: {x: 0, y: 0}
+  i_uvScale: {x: 1, y: 1}
+  i_uv2Offset: {x: 0, y: 0}
+  i_uv2Scale: {x: 1, y: 1}
+  i_randomMode: 0
+  i_layer: 0
+  i_fade: 1
+  i_atlasTilingU: 1
+  i_atlasTilingV: 1
+  i_randomVector: {x: 0, y: 0, z: 0}
+  i_randomSize: 0
+  i_fadingTime: 1
+  i_combineEvery: 10
+  i_destroyGenerationDelay: 5
+  i_maxSkinnedDecals: 4
+  i_expeditorLifeTime: 20
+  i_ignoreList: []
+  i_projectionMask: 1
+  _decalDragProjectionType: 0
+  i_flow: 0
+  i_gravity: {x: 0, y: -1, z: 0}
+  i_mapSize: 256
+  i_minLevel: 0.7
+  i_speedIncrease: 0.13
+  i_speedDecrease: 0.175
+  i_glue: 5
+  i_sourceBumpContrib: 0.3
+  i_growFramesCount: 10
+  i_growSpeed: 0.5
+  i_lifeTime: 5
+  i_flowType: 0
+  i_gravityShader: {fileID: 0}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

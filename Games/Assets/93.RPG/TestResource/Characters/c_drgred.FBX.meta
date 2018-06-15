@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 3e744ade09b8d354aaf4ea4de9bbf187
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    4300000: ignore_NGon01
+    4300002: Dragon_chest
+    4300004: Dragon_midneckB
+    4300006: Dragon_midneckA
+    4300008: Dragon_topneckC
+    4300010: Dragon_topneckB
+    4300012: Dragon_topneckA
+    4300014: Dragon_head
+    4300016: Dragon_jaw
+    4300018: Dragon_bodyspikeA24
+    4300020: L_horn
+    4300022: Dragon_bodyspikeA25
+    4300024: L_horn01
+    4300026: Dragon_bodyspikeA04
+    4300028: fin02
+    4300030: Dragon_bodyspikeA08
+    4300032: Dragon_bodyspikeA10
+    4300034: Dragon_bodyspikeA23
+    4300036: fin03
+    4300038: Dragon_bodyspikeA06
+    4300040: fin04
+    4300042: Dragon_bodyspikeA05
+    4300044: fin05
+    4300046: Dragon_bodyspikeA07
+    4300048: Dragon_bodyspikeA11
+    4300050: fin06
+    4300052: Dragon_Lfrontupperleg
+    4300054: Dragon_Lfrontforearm
+    4300056: Dragon_Lfrontpaw
+    4300058: Dragon_LfrontclawA
+    4300060: Dragon_LfrontclawB
+    4300062: Dragon_Rfrontupperleg
+    4300064: Dragon_Rfrontforearm
+    4300066: Dragon_Rfrontpaw
+    4300068: Dragon_RfrontclawB
+    4300070: Dragon_RfrontclawA
+    4300072: Dragon_LmainwingA
+    4300074: Dragon_LmainwingB
+    4300076: Dragon_Lmainwinghand
+    4300078: Dragon_LmainwingC
+    4300080: Dragon_LmidwingA
+    4300082: Dragon_LlowwingA
+    4300084: Dragon_RmainwingA
+    4300086: Dragon_RmainwingB
+    4300088: Dragon_Rmainwinghand
+    4300090: Dragon_RmainwingC
+    4300092: Dragon_RmidwingA
+    4300094: Dragon_RlowwingA
+    4300096: Dragon_bodyspikeA14
+    4300098: Dragon_bodyspikeA15
+    4300100: Dragon_bodyspikeA13
+    4300102: Dragon_hips
+    4300104: Dragon_tailbase
+    4300106: Dragon_tailpieceA
+    4300108: Dragon_tailpieceB
+    4300110: Dragon_tailpieceC
+    4300112: Dragon_tailpieceD
+    4300114: Dragon_tailpieceE
+    4300116: Dragon_tailpieceF
+    4300118: Dragon_tailpieceG
+    4300120: Dragon_tailpieceH
+    4300122: Dragon_bodyspikeA22
+    4300124: Dragon_bodyspikeA21
+    4300126: Dragon_bodyspikeA20
+    4300128: Dragon_bodyspikeA19
+    4300130: Dragon_bodyspikeA18
+    4300132: Dragon_Lbackupperleg
+    4300134: Dragon_Lbacklowerleg
+    4300136: Dragon_Lbackbotleg
+    4300138: Dragon_Lbackpaw
+    4300140: Dragon_LbackclawA
+    4300142: Dragon_LbackclawB
+    4300144: Dragon_Rbackupperleg
+    4300146: Dragon_Rbacklowerleg
+    4300148: Dragon_Rbackbotleg
+    4300150: Dragon_Rbackpaw
+    4300152: Dragon_RbackclawB
+    4300154: Dragon_RbackclawA
+    4300156: Dragon_bodyspikeA17
+    4300158: Dragon_bodyspikeA16
+    4300160: Dragon_Rwing
+    4300162: Dragon_Lwing
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
