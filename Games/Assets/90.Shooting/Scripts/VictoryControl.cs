@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class VictoryControl : MonoBehaviour {
 
+
     private void OnGUI()
     {
         float CenterX = Screen.width / 2;
@@ -14,4 +15,5 @@ public class VictoryControl : MonoBehaviour {
            SceneManager.LoadScene("Game");
         }
     }
+
 }

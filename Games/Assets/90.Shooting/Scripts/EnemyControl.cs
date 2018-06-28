@@ -23,7 +23,9 @@ public class EnemyControl : MonoBehaviour {
             InitPosition();
         }
 	}
-
+    /// <summary>
+    /// 위치를 초기화해주는 함수.(기능)
+    /// </summary>
     void InitPosition()
     {
         float PositionX = Random.Range(-4.0f, 4.0f);
