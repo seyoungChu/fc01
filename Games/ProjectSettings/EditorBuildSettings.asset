@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/90.Shooting/Scenes/Game.unity
+    guid: fefd6419fd58e4aef8530ab83c352888
+  - enabled: 1
+    path: Assets/90.Shooting/Scenes/Victory.unity
+    guid: 48e53410f2e524a039bfdd010e65965f
+  - enabled: 1
+    path: Assets/90.Shooting/Scenes/Lose.unity
+    guid: 00000000000000000000000000000000
