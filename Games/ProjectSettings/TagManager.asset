@@ -10,7 +10,6 @@ TagManager:
   - AttackCollider
   - Grass
   - MapBounds
-  - Bullet
   layers:
   - Default
   - TransparentFX
