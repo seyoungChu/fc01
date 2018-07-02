@@ -1,0 +1,324 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp-Editor.dll'
+-unsafe
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll'
+-r:'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll'
+-r:'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll'
+-r:'Assets/95.RTS/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll'
+-r:'Assets/95.RTS/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll'
+-r:'Assets/95.RTS/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_6
+-define:UNITY_5_6
+-define:UNITY_5
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+'Assets/95.RTS/0.Scripts_lecture/Tool/Editor/EditorHelper.cs'
+'Assets/95.RTS/1.Scripts/Helper/Editor/BaseInspector.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/AnimationLinkEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/AstarPathEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/AstarUpdateChecker.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/AstarUpdateWindow.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/EditorGUIx.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/LayerGridGraphEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphEditors/RecastGraphEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/Misc/AstarEnumFlagDrawer.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/NavmeshCutEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/OptimizationHandler.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/RVONavmeshEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/RVOSimulatorEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/RVOSquareObstacleEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/RecastMeshObjEditor.cs'
+'Assets/95.RTS/AstarPathfindingProject/Editor/SeekerEditor.cs'
+'Assets/Classes/Editor/EntityTableImporter.cs'
+'Assets/Editor/ExcelImporterMaker.cs'
+'Assets/Effect Assets/DecalFramework 2/Editor/DecalMenu.cs'
+'Assets/Effect Assets/DecalFramework 2/Editor/DecalTypeEditor.cs'
+'Assets/UI Assets/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs'
+'Assets/UI Assets/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/ActiveAnimationEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/BMFontReader.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/ComponentSelector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/EventDelegateDrawer.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/EventDelegateEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/FreeType.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/MinMaxRangeAttributeDrawer.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIContextMenu.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIEditorExtensions.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIEditorTools.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIHandles.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIHelp.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIJson.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUIMenu.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUISelectionTools.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUISettings.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUISnap.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/NGUITransformInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/PropertyBindingEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/PropertyReferenceDrawer.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/SpriteSelector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenAlphaEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenColorEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenFOVEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenHeightEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenOrthoSizeEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenPositionEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenRotationEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenScaleEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenTransformEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenVolumeEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TweenWidthEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/TypewriterEffectEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UI2DSpriteEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIAnchorEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIAtlasInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIAtlasMaker.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIBasicSpriteEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIButtonColorEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIButtonEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIButtonKeysEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIButtonMessageEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UICameraEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UICameraTool.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIColorPickerEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UICreateNewUIWizard.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UICreateWidgetWizard.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIDragObjectEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIDrawCallInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIDrawCallViewer.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIEventTriggerEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIFontInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIFontMaker.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIForwardEventsEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIGridEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIImageButtonInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIInputEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIKeyNavigationEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UILabelInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UILocalizeEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPanelInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPanelTool.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPlayAnimationEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPlayTweenEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPopupListInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIPrefabTool.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIProgressBarEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIRectEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIRootEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIScrollBarEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIScrollViewEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UISliderEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UISnapshotPointEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UISpriteInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIStretchEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UITableEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UITextureInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UITexturePacker.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIToggleInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UITweenerEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIWidgetContainerEditor.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIWidgetInspector.cs'
+'Assets/UI Assets/NGUI/Scripts/Editor/UIWrapContentEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Camera/tk2dCameraAnchorEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Camera/tk2dCameraEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Fonts/tk2dFontBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Fonts/tk2dFontEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Fonts/tk2dTextMeshEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Runtime/tk2dResourceEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Runtime/tk2dSystemUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Shared/tk2dNaturalComparer.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/Atlas/tk2dAtlasBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/Atlas/tk2dAtlasRect.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/Atlas/tk2dMaxRectsBinPack.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationAnimOp.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationClipEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationClipTimelineEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationEditorPopup.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteAnimationEditor/tk2dSpriteAnimationPreview.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorFontView.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorPopup.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorProxy.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorSettingsView.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorSpriteSheetView.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorSpriteView.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpriteCollectionEditor/tk2dSpriteCollectionEditorTextureView.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/SpritePicker/tk2dSpritePickerPopup.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/TextureProcessing/tk2dFloydSteinbergDithering.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/Triangulator/tk2dSpriteFromTextureEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/Triangulator/tk2dTriangulator.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dAnimatedSpriteEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dClippedSpriteEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSlicedSpriteEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteAnimatorEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionBuilderDeprecated.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionBuilderUtil.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionLinkBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionPlatformBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteCollectionTextureWatcher.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dSpriteThumbnailCache.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dStaticSpriteBatcherEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/Sprites/tk2dTiledSpriteEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dAutoRebuild.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dEditorSkin.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dEditorUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dGrid.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dGuiUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dIndex.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dJSSupport.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dMenu.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dPreferencesEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dScaleUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dSceneHelper.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dSpriteGuiUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dUndo.cs'
+'Assets/UI Assets/TK2DROOT/tk2d/Editor/tk2dUpdateWindow.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/Importer/tk2dTileMapImporter.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapBrushBuilder.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapBrushRenderer.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapEditorData.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapEditorDataInspector.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapSceneGUI.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapScratchpad.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapToolbar.cs'
+'Assets/UI Assets/TK2DROOT/tk2dTileMap/Editor/tk2dTileMapUtility.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIBaseItemControlEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIControlsHelperEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUICustomEditorGUILayout.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIDragItemEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIDropDownMenuEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIHoverItemEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIMultiStateToggleButtonEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIProgressBarEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIScrollableAreaEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIScrollbarEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUISoundItemEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUITextInputEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIToggleButtonEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIToggleButtonGroupEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIToggleControlEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUITweenItemEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIUpDownButtonEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Controls/tk2dUIUpDownHoverButtonEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUIItemBoundsHelper.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUIItemEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUILayoutContainerEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUILayoutContainerSizerEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUILayoutEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUIMaskEditor.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUIMethodBindingHelper.cs'
+'Assets/UI Assets/TK2DROOT/tk2dUI/Editor/Core/tk2dUISpriteAnimatorEditor.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
+-sdk:2.0
