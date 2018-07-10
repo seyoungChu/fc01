@@ -1,0 +1,8 @@
+diff a/Games/Assets/Plugins/Excel/npoi/NPOI.XML.meta b/Games/Assets/Plugins/Excel/npoi/NPOI.XML.meta	(rejected hunks)
+@@ -1,6 +0,0 @@
+-fileFormatVersion: 2
+-guid: 99a234c776bec456eacff9c0254afd9f
+-TextScriptImporter:
+-  userData: 
+-  assetBundleName: 
+-  assetBundleVariant: 
