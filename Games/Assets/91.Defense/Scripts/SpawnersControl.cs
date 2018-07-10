@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class SpawnersControl : MonoBehaviour {
 
+    //몬스터들의 이동경로 위치들.
     public GameObject[] Spawners = null;
+    //소환할 몬스터 프리팹.
     public GameObject SpawnObject = null;
-
+    //이벤트 발생 딜레이 타임.
     public float SpawnDelay = 1.0f;
+    //마지막으로 이벤트를 발생한 시간.
     private float LastSpawnTime = 0.0f;
     // Use this for initialization
     void Start() {

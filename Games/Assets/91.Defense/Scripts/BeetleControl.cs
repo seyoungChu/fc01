@@ -7,6 +7,7 @@ public class BeetleControl : MonoBehaviour {
     public float Speed = 1.0f;
     private Transform myTransform = null;
     public Vector3[] TargetPositions = new Vector3[10];
+    public int[] TargetIndex = new int[10];
     private int AddIndex = 0;
     private int CurrentIndex = 0;
     
@@ -29,6 +30,7 @@ public class BeetleControl : MonoBehaviour {
             CurrentIndex++;//CurrentIndex를 1 증가합니다.
             //다음 목표 위치가 0,0,0이라면.
             if(TargetPositions[CurrentIndex] == Vector3.zero)
+            //if(CurrentIndex == AddIndex)
             {
                 Destroy(gameObject);
             }
