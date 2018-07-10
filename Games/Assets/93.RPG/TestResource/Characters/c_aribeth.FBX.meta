@@ -3,6 +3,100 @@ guid: 5c4dbf7004d3c6344a86ec39bf121e1b
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: handconjure
+    100004: head
+    100006: head_g
+    100008: headconjure
+    100010: ignore_NGon01
+    100012: Impact
+    100014: lbicep_g
+    100016: lfoot_g
+    100018: lforearm
+    100020: lforearm_g
+    100022: lhand
+    100024: lhand_g
+    100026: lshin_g
+    100028: lshoulder_g
+    100030: lthigh_g
+    100032: neck_g
+    100034: pelvis_g
+    100036: rbicep_g
+    100038: rfoot_g
+    100040: rforearm_g
+    100042: rhand
+    100044: rhand_g
+    100046: rootdummy
+    100048: rshin_g
+    100050: rshoulder_g
+    100052: rthigh_g
+    100054: torso_g
+    400000: //RootNode
+    400002: handconjure
+    400004: head
+    400006: head_g
+    400008: headconjure
+    400010: ignore_NGon01
+    400012: Impact
+    400014: lbicep_g
+    400016: lfoot_g
+    400018: lforearm
+    400020: lforearm_g
+    400022: lhand
+    400024: lhand_g
+    400026: lshin_g
+    400028: lshoulder_g
+    400030: lthigh_g
+    400032: neck_g
+    400034: pelvis_g
+    400036: rbicep_g
+    400038: rfoot_g
+    400040: rforearm_g
+    400042: rhand
+    400044: rhand_g
+    400046: rootdummy
+    400048: rshin_g
+    400050: rshoulder_g
+    400052: rthigh_g
+    400054: torso_g
+    2300000: head_g
+    2300002: ignore_NGon01
+    2300004: lbicep_g
+    2300006: lfoot_g
+    2300008: lforearm_g
+    2300010: lhand_g
+    2300012: lshin_g
+    2300014: lshoulder_g
+    2300016: lthigh_g
+    2300018: neck_g
+    2300020: pelvis_g
+    2300022: rbicep_g
+    2300024: rfoot_g
+    2300026: rforearm_g
+    2300028: rhand_g
+    2300030: rshin_g
+    2300032: rshoulder_g
+    2300034: rthigh_g
+    2300036: torso_g
+    3300000: head_g
+    3300002: ignore_NGon01
+    3300004: lbicep_g
+    3300006: lfoot_g
+    3300008: lforearm_g
+    3300010: lhand_g
+    3300012: lshin_g
+    3300014: lshoulder_g
+    3300016: lthigh_g
+    3300018: neck_g
+    3300020: pelvis_g
+    3300022: rbicep_g
+    3300024: rfoot_g
+    3300026: rforearm_g
+    3300028: rhand_g
+    3300030: rshin_g
+    3300032: rshoulder_g
+    3300034: rthigh_g
+    3300036: torso_g
     4300000: ignore_NGon01
     4300002: pelvis_g
     4300004: rthigh_g
@@ -22,6 +116,7 @@ ModelImporter:
     4300032: lshoulder_g
     4300034: neck_g
     4300036: head_g
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3

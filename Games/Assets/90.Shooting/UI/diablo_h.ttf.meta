@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 949c4e3b57c9b114cb95a27cf0a4df97
+timeCreated: 1530188966
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Diablo
+  fontNames:
+  - Diablo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

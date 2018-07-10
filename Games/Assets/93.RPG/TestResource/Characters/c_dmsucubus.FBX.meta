@@ -3,6 +3,120 @@ guid: ad7159996140a3d43aa6848c262353b9
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: handconjure
+    100004: head
+    100006: head_g
+    100008: headconjure
+    100010: headdummy
+    100012: ignore_NGon01
+    100014: Impact
+    100016: lbicep_g
+    100018: lear
+    100020: lfoot_g
+    100022: lforearm
+    100024: lforearm_g
+    100026: lhand
+    100028: lhand_g
+    100030: lshin_g
+    100032: LshoulderspikeA
+    100034: LshoulderspikeB
+    100036: lthigh_g
+    100038: neck_g
+    100040: pelvis_g
+    100042: rbicep_g
+    100044: rear
+    100046: rfoot_g
+    100048: rforearm_g
+    100050: rhand
+    100052: rhand_g
+    100054: rootdummy
+    100056: rshin_g
+    100058: RshoulderspikeA
+    100060: RshoulderspikeB
+    100062: rthigh_g
+    100064: torso_g
+    100066: wings
+    400000: //RootNode
+    400002: handconjure
+    400004: head
+    400006: head_g
+    400008: headconjure
+    400010: headdummy
+    400012: ignore_NGon01
+    400014: Impact
+    400016: lbicep_g
+    400018: lear
+    400020: lfoot_g
+    400022: lforearm
+    400024: lforearm_g
+    400026: lhand
+    400028: lhand_g
+    400030: lshin_g
+    400032: LshoulderspikeA
+    400034: LshoulderspikeB
+    400036: lthigh_g
+    400038: neck_g
+    400040: pelvis_g
+    400042: rbicep_g
+    400044: rear
+    400046: rfoot_g
+    400048: rforearm_g
+    400050: rhand
+    400052: rhand_g
+    400054: rootdummy
+    400056: rshin_g
+    400058: RshoulderspikeA
+    400060: RshoulderspikeB
+    400062: rthigh_g
+    400064: torso_g
+    400066: wings
+    2300000: head_g
+    2300002: ignore_NGon01
+    2300004: lbicep_g
+    2300006: lear
+    2300008: lfoot_g
+    2300010: lforearm_g
+    2300012: lhand_g
+    2300014: lshin_g
+    2300016: LshoulderspikeA
+    2300018: LshoulderspikeB
+    2300020: lthigh_g
+    2300022: neck_g
+    2300024: pelvis_g
+    2300026: rbicep_g
+    2300028: rear
+    2300030: rfoot_g
+    2300032: rforearm_g
+    2300034: rhand_g
+    2300036: rshin_g
+    2300038: RshoulderspikeA
+    2300040: RshoulderspikeB
+    2300042: rthigh_g
+    2300044: torso_g
+    3300000: head_g
+    3300002: ignore_NGon01
+    3300004: lbicep_g
+    3300006: lear
+    3300008: lfoot_g
+    3300010: lforearm_g
+    3300012: lhand_g
+    3300014: lshin_g
+    3300016: LshoulderspikeA
+    3300018: LshoulderspikeB
+    3300020: lthigh_g
+    3300022: neck_g
+    3300024: pelvis_g
+    3300026: rbicep_g
+    3300028: rear
+    3300030: rfoot_g
+    3300032: rforearm_g
+    3300034: rhand_g
+    3300036: rshin_g
+    3300038: RshoulderspikeA
+    3300040: RshoulderspikeB
+    3300042: rthigh_g
+    3300044: torso_g
     4300000: ignore_NGon01
     4300002: torso_g
     4300004: rbicep_g
@@ -26,6 +140,19 @@ ModelImporter:
     4300040: rthigh_g
     4300042: rshin_g
     4300044: rfoot_g
+    7400000: nwreadyl
+    7400002: nwreadyr
+    7400004: nwslashl
+    7400006: nwstab
+    7400008: nwcloseh
+    7400010: nwclosel
+    7400012: nwreach
+    7400014: nwslashr
+    7400016: taunt
+    7400018: disappear
+    7400020: appear
+    7400022: disappearlp
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3
