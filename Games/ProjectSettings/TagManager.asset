@@ -10,6 +10,10 @@ TagManager:
   - AttackCollider
   - Grass
   - MapBounds
+  - player
+  - bullet
+  - item_speed
+  - item_power
   layers:
   - Default
   - TransparentFX
