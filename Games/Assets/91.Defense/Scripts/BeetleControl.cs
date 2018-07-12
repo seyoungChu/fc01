@@ -51,4 +51,12 @@ public class BeetleControl : MonoBehaviour {
         TargetPositions[AddIndex] = targetPos;
         AddIndex++; //Addindex = AddIndex + 1;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "AttackCollider")
+        {
+            Debug.Log("Damage Hitted!!");
+        }
+    }
 }

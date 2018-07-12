@@ -11,6 +11,7 @@ TagManager:
   - Grass
   - MapBounds
   - Bullet
+  - Canvas
   layers:
   - Default
   - TransparentFX

@@ -13,23 +13,50 @@ public class TowerControl : MonoBehaviour {
     public GameObject nextTarget = null;
     //상태를 보여줄 3D TextMesh 컴포넌트.
     public TextMesh stateText = null;
+    public Transform AttackDummy = null;//미사일이 생성될 위치를 얻어올 트랜스폼.
+    public float AttackDelay = 1.0f;//타워의 공격속도 1초마다 미사일을 생성하게 됩니다.
+    private float LastAttackTime = 0.0f;//마지막으로 공격한 시간을 기록합니다.
 
-
+    public int Level = 1;//타워의 레벨.
+    public int Damage = 10;//타워의 공격력.
 	// Use this for initialization
 	void Start () {
         //내 상태를 대기상태로 지정.
         myState = TowerState.Idle;
         //상태를 보여줄 텍스트메쉬를 얻어옵니다.
         stateText = transform.Find("StateTextMesh").GetComponent<TextMesh>();
+        //공격더미를 얻어옵니다.
+        AttackDummy = transform.Find("AttackDummy");
 	}
     /// <summary>
     /// 타워가 공격(Attack) 상태일때의 동작.
     /// </summary>
     void Attack()
     {
+        //타겟이 없으면 동작하지 않습니다.
         if(currentTarget != null)
         {
-            //attack
+            //공격딜레이만큼 기다렸다가 이벤트를 발생.
+            if(Time.time > LastAttackTime + AttackDelay)
+            {
+                LastAttackTime = Time.time;//마지막 이벤트 발생시간을 현재시간으로 지정.
+                //Prefabs폴더 안에 있는 Missile이라는 프리팹을 생성.
+                GameObject missile = (GameObject)Instantiate(
+                    Resources.Load("Prefabs/Missile"),
+                    AttackDummy.position,
+                    AttackDummy.rotation);
+                //초기 사이즈는 0.15,0.15,0.1 지정.
+                missile.transform.localScale = new Vector3(0.15f, 0.15f, 0.1f);
+                //미사일컨트롤 스크립트를 붙여줍니다.
+                MissileControl control = missile.AddComponent<MissileControl>();
+                //현재 타겟을 미사일의 타겟으로 지정해줍니다.
+                control.SetTarget(currentTarget);
+                //데미지정보를 갖고 있는 데미지컴포넌트를 붙여주고.
+                DamageComponent dam = missile.AddComponent<DamageComponent>();
+                //몬스터에게 입힐 데미지를 넘겨줍니다.
+                dam.SetDamage(Level * Damage);// 1 X 10
+            }
+
         }else
         {   //대기 상태로 돌아간다.
             myState = TowerState.Idle;
