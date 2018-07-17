@@ -57,6 +57,10 @@ public class BeetleControl : MonoBehaviour {
         if(other.tag == "AttackCollider")
         {
             Debug.Log("Damage Hitted!!");
+            int damage = other.GetComponent<DamageComponent>().GetDamage();
+            gameObject.SendMessage("OnDamage", damage);
+            int towerID = other.GetComponent<DamageComponent>().OwnerID;
+            TowerManager.Instance.towerControls[towerID].HitCount++;//타워의 맞춘횟수 1증가.
         }
     }
 }

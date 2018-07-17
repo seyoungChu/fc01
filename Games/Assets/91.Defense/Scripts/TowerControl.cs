@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TowerControl : MonoBehaviour {
+    //타워의 식별ID.
+    public int myID = -1;
     //타워의 상태 열거형, 대기상태와 공격상태를 정의하고 있다.
     public enum TowerState { None = 0, Idle, Attack }
     //타워의 현재 상태.
@@ -19,6 +21,7 @@ public class TowerControl : MonoBehaviour {
 
     public int Level = 1;//타워의 레벨.
     public int Damage = 10;//타워의 공격력.
+    public int HitCount = 0;//몬스터를 공격해서 맞춘 횟수.
 	// Use this for initialization
 	void Start () {
         //내 상태를 대기상태로 지정.
@@ -55,6 +58,8 @@ public class TowerControl : MonoBehaviour {
                 DamageComponent dam = missile.AddComponent<DamageComponent>();
                 //몬스터에게 입힐 데미지를 넘겨줍니다.
                 dam.SetDamage(Level * Damage);// 1 X 10
+                //이 데미지를 발생시킨건 나의 ID를 넘겨줍니다.
+                dam.OwnerID = myID;
             }
 
         }else
@@ -65,8 +70,8 @@ public class TowerControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //상태를 출력.
-        stateText.text = myState.ToString();
+        //상태를 출력. -> [레벨] : 맞춘횟수
+        stateText.text = "[Lv."+Level.ToString() + "]: " + HitCount.ToString();
         //상태별 동작을 구분.
 		switch(myState)
         {

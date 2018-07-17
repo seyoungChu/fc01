@@ -30,6 +30,10 @@ public class SpawnersControl : MonoBehaviour {
             {
                 Beetle.SendMessage("SetTargetPosition", Spawners[i].transform.position);
             }
+            //HPBarControl 스크립트를 몬스터에게 붙여줍니다.
+            HPBarControl hPBarControl = Beetle.AddComponent<HPBarControl>();
+            //몬스터의 시작HP를 100으로 지정합니다.
+            hPBarControl.SetHP(100);
 
         }
     }

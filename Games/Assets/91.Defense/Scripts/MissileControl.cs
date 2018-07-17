@@ -36,6 +36,8 @@ public class MissileControl : MonoBehaviour {
         effect.tag = "AttackCollider";
         int damage = GetComponent<DamageComponent>().GetDamage();
         effect.AddComponent<DamageComponent>().SetDamage(damage);
+        //타워로부터 넘겨받은 타워의 ID를 이펙트에게 부여합니다.
+        effect.GetComponent<DamageComponent>().OwnerID = GetComponent<DamageComponent>().OwnerID;
     }
 
 	// Update is called once per frame
