@@ -10,6 +10,7 @@ TagManager:
   - AttackCollider
   - Grass
   - MapBounds
+  - Canvas
   layers:
   - Default
   - TransparentFX

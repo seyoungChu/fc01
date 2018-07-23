@@ -33,7 +33,7 @@ public class SingletonMonobehaviour<T> : MonoBehaviour where T : MonoBehaviour
         {
             _instance = this as T;
         }
-
+        // 씬이 변경되어도 게임오브젝트는 사라지지않음
         DontDestroyOnLoad(transform.root);
     }
 

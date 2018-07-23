@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpawnersControl : MonoBehaviour {
 
+    //몬스터들의 이동겨로 위치들
     public GameObject[] Spawners = null;
+    //소환할 몬스터 프리랩
     public GameObject SpawnObject = null;
 
     public float SpawnDelay = 1.0f; // 이벤트 발생 간격
@@ -22,10 +24,16 @@ public class SpawnersControl : MonoBehaviour {
         {
             LastSpawenTime = Time.time; // 이벤트 발생시간을 현재 시간으로 셋팅, 할당 
             GameObject Beetle = (GameObject)Instantiate(SpawnObject, Spawners[0].transform.position, Spawners[0].transform.rotation);
-
+            // 스폰하는 새로운 몬스터의 위치 = Spawners의 첫번째 위, 각도의 값을 갖는다
             for (int i = 0; i < Spawners.Length; i++ ) {
                 Beetle.SendMessage("SetTargetPosition", Spawners[i].transform.position);
+                // 몬스터의 경로를 알려주는 코드
             }
+
+            HPBarControl hPBarControl = Beetle.AddComponent<HPBarControl>();
+            // HPBarControl 스크립트를 몬스터에 붙임
+            hPBarControl.SetHP(100);
+            // 초기 HP을 100으로 셋팅
         }
 	}
 

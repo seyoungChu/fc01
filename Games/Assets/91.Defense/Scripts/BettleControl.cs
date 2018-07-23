@@ -27,6 +27,7 @@ public class BettleControl : MonoBehaviour {
         {
             CurrentIndex++; // CurrentIndex 1 증가시킴
             if(TargetPositions[CurrentIndex] == Vector3.zero)
+                //if(CurrentIndex == AddIndex)
             {
                 Destroy(gameObject);
             }
@@ -43,5 +44,18 @@ public class BettleControl : MonoBehaviour {
     void SetTargetPosition(Vector3 taregetPos) {
         TargetPositions[AddIndex] = taregetPos;
         AddIndex++;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "AttackCollider")
+        {
+            Debug.Log("Damage Hitted");
+            int damage = other.GetComponent<DamageComponent>().GetDamage();
+            gameObject.SendMessage("OnDamage", damage);
+            int towerID = other.GetComponent<DamageComponent>().OwnerID;
+            TowerManager.Instance.towerControls[towerID].HitCount++;
+            // 타워의 맞춘 횟수 1증가 
+        }
     }
 }
