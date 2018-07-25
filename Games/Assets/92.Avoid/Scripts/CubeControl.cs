@@ -7,6 +7,10 @@ public class CubeControl : MonoBehaviour {
     public GameObject Player = null;
     //현재 픽킹한 위치를 담아놓습니다.
     public Vector3 PickPosition = Vector3.zero;
+    //나의 생명력
+    public int Lives = 5;
+    public int Score = 0; //내가 획득한 점수.
+    public GUISkin mySkin = null;
 	// Use this for initialization
 	void Start () {
 		
@@ -23,6 +27,7 @@ public class CubeControl : MonoBehaviour {
                 Player = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 Player.transform.position = PickPosition;
                 Player.AddComponent<CubeMove>();
+                Player.tag = "Player"; //Tag를 Player로 지정.
             }
         }
 	}
@@ -41,6 +46,14 @@ public class CubeControl : MonoBehaviour {
                 Player.SendMessage("SetNextPosition", PickPosition);
             }
         }
+    }
+
+    private void OnGUI()
+    {
+        GUI.skin = mySkin;
+        Score = (int)Time.time;//0.0001 -> 0 , 1.00123 -> 1
+        GUILayout.Label("Score:" + Score);
+        GUILayout.Label("Lives:" + Lives);
     }
 
 
