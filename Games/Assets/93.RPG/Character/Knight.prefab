@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 11100002}
   - component: {fileID: 14300000}
   - component: {fileID: 8200000}
+  - component: {fileID: 114399315453817746}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -2198,3 +2199,27 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100028}
   m_IsPrefabParent: 1
+--- !u!114 &114399315453817746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfba3c01d6bada047960865d98d17d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 2
+  RunSpeed: 3
+  RotateSpeed: 100
+  VelocitySpeed: 0.01
+  MoveDirection: {x: 0, y: 0, z: 0}
+  IdleAnimation: {fileID: 7400000, guid: 45d3af78ca2ca3c48b9bed2710225584, type: 3}
+  WalkAnimation: {fileID: 7400000, guid: 7a577a72f348f2642b46c13f3681f0bd, type: 3}
+  RunAnimation: {fileID: 7400000, guid: c83e1770da24ae24199c48994833b102, type: 3}
+  Attack1Animation: {fileID: 7400000, guid: f2ed6852d0b37394d844649f19d2bd14, type: 3}
+  Attack2Animation: {fileID: 7400000, guid: 4b2e5452f6656e74f93ebfb8cbaa5f6a, type: 3}
+  Attack3Animation: {fileID: 7400000, guid: 9b4a0dc5fc18b5a468c1118d3a38b0b9, type: 3}
+  Attack4Animation: {fileID: 7400000, guid: 4548d7bceba281d4d90297c6db3bea8b, type: 3}
+  myState: 0
