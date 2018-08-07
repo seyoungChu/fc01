@@ -2095,8 +2095,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.1
-  m_Height: 1
+  m_Radius: 0.25
+  m_Height: 1.1
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: -0.31}
 --- !u!137 &13700000
@@ -2213,7 +2213,7 @@ MonoBehaviour:
   MoveSpeed: 2
   RunSpeed: 3
   RotateSpeed: 100
-  VelocitySpeed: 0.01
+  VelocitySpeed: 2
   MoveDirection: {x: 0, y: 0, z: 0}
   IdleAnimation: {fileID: 7400000, guid: 45d3af78ca2ca3c48b9bed2710225584, type: 3}
   WalkAnimation: {fileID: 7400000, guid: 7a577a72f348f2642b46c13f3681f0bd, type: 3}
@@ -2222,4 +2222,11 @@ MonoBehaviour:
   Attack2Animation: {fileID: 7400000, guid: 4b2e5452f6656e74f93ebfb8cbaa5f6a, type: 3}
   Attack3Animation: {fileID: 7400000, guid: 9b4a0dc5fc18b5a468c1118d3a38b0b9, type: 3}
   Attack4Animation: {fileID: 7400000, guid: 4548d7bceba281d4d90297c6db3bea8b, type: 3}
+  SkillAnimation: {fileID: 7400000, guid: 99e4c52a242f80c4ea1fdd4be1e14206, type: 3}
+  SkillEffect: {fileID: 1970182539693328, guid: 9b2d11718b7921444857961906366b4c,
+    type: 2}
   myState: 0
+  attackState: 0
+  NextAttack: 0
+  AttackTrailRenderer: {fileID: 9600000}
+  AttackCapsuleCollider: {fileID: 13600000}
