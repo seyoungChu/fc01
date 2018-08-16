@@ -5,9 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/90.Shooting/Scenes/Game.unity
     guid: 1d957c54c0931ae439d179cd70fb69e4
-  - enabled: 1
+  - enabled: 0
     path: Assets/90.Shooting/Scenes/Victory.unity
+    guid: 12b38102c5de7fd4489a81f1cb8ff751
+  - enabled: 0
+    path: Assets/SimpleNetwork/1.Scenes/Client.unity
+    guid: fb3f1299a92c24680be2c8d129e83535
+  - enabled: 0
+    path: Assets/SimpleNetwork/1.Scenes/Server.unity
+    guid: 8fa64db64842d4696a8ed59cd66a4fd7
+  - enabled: 0
+    path: Assets/Chat/main.unity
+    guid: 95925576c2aab324daf93be09bce787e
+  - enabled: 0
+    path: Assets/UNETChatSystem/demo.unity
+    guid: 313cc79201caef347895cd12ea0dec10
+  - enabled: 1
+    path: Assets/94.RPG_NET/Scenes/Game.unity
+    guid: 0e0095d04765e43b5a69055cfcd0bcd9
+  - enabled: 1
+    path: Assets/95.RTS/2.Scenes/Starter.unity
+    guid: 692219fe25fab41ce946da8de2b86a34
+  - enabled: 1
+    path: Assets/95.RTS/2.Scenes/InGame.unity
     guid: 00000000000000000000000000000000

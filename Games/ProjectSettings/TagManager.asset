@@ -12,6 +12,7 @@ TagManager:
   - MapBounds
   - Bullet
   - Canvas
+  - sword
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - 
   - Background
   - Background2
-  - 
+  - Grid
   - 
   - 
   - 

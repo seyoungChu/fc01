@@ -58,7 +58,7 @@ public static class Define
 
 }
 
-/*public class Grid
+public class Grid
 {
     public bool isObstacle = false;
     public bool isPathObstacle = false;
@@ -92,7 +92,7 @@ public static class Define
         this.isObstacle = true;
     }
 
-}*/
+}
 
 public enum EntityList : int
 {
