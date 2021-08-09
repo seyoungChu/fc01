@@ -491,7 +491,7 @@ public class tk2dCamera : MonoBehaviour
         {
             if (Editor__getGameViewSizeError == false)
             {
-                Debug.LogError("tk2dCamera.GetGameViewSize - has a Unity update broken this?\nThis is not a fatal error, but a warning that you've probably not got the latest 2D Toolkit update.\n\n" + e.ToString());
+                Debug.LogWarning("tk2dCamera.GetGameViewSize - has a Unity update broken this?\nThis is not a fatal error, but a warning that you've probably not got the latest 2D Toolkit update.\n\n" + e.ToString());
                 Editor__getGameViewSizeError = true;
             }
             Editor__gameViewReflectionError = true;

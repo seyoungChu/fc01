@@ -1,1 +1,0 @@
-Place this folder into Assets root folder.

@@ -1,35 +1,124 @@
 fileFormatVersion: 2
 guid: ad7159996140a3d43aa6848c262353b9
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    4300000: ignore_NGon01
-    4300002: torso_g
-    4300004: rbicep_g
-    4300006: rforearm_g
-    4300008: rhand_g
-    4300010: RshoulderspikeB
-    4300012: RshoulderspikeA
-    4300014: neck_g
-    4300016: head_g
-    4300018: lear
-    4300020: rear
-    4300022: lbicep_g
-    4300024: lforearm_g
-    4300026: lhand_g
-    4300028: LshoulderspikeB
-    4300030: LshoulderspikeA
-    4300032: pelvis_g
-    4300034: lthigh_g
-    4300036: lshin_g
-    4300038: lfoot_g
-    4300040: rthigh_g
-    4300042: rshin_g
-    4300044: rfoot_g
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: ignore_NGon01
+  - first:
+      43: 4300002
+    second: torso_g
+  - first:
+      43: 4300004
+    second: rbicep_g
+  - first:
+      43: 4300006
+    second: rforearm_g
+  - first:
+      43: 4300008
+    second: rhand_g
+  - first:
+      43: 4300010
+    second: RshoulderspikeB
+  - first:
+      43: 4300012
+    second: RshoulderspikeA
+  - first:
+      43: 4300014
+    second: neck_g
+  - first:
+      43: 4300016
+    second: head_g
+  - first:
+      43: 4300018
+    second: lear
+  - first:
+      43: 4300020
+    second: rear
+  - first:
+      43: 4300022
+    second: lbicep_g
+  - first:
+      43: 4300024
+    second: lforearm_g
+  - first:
+      43: 4300026
+    second: lhand_g
+  - first:
+      43: 4300028
+    second: LshoulderspikeB
+  - first:
+      43: 4300030
+    second: LshoulderspikeA
+  - first:
+      43: 4300032
+    second: pelvis_g
+  - first:
+      43: 4300034
+    second: lthigh_g
+  - first:
+      43: 4300036
+    second: lshin_g
+  - first:
+      43: 4300038
+    second: lfoot_g
+  - first:
+      43: 4300040
+    second: rthigh_g
+  - first:
+      43: 4300042
+    second: rshin_g
+  - first:
+      43: 4300044
+    second: rfoot_g
+  - first:
+      74: -5336890181513592612
+    second: nwreadyl
+  - first:
+      74: -8463603735039654322
+    second: nwreadyr
+  - first:
+      74: 9002562036517700307
+    second: nwslashl
+  - first:
+      74: -2456446490939737503
+    second: nwstab
+  - first:
+      74: -8244522962763493246
+    second: nwcloseh
+  - first:
+      74: -1829960758831351652
+    second: nwclosel
+  - first:
+      74: -3558174730681703792
+    second: nwreach
+  - first:
+      74: 8371917492360168202
+    second: nwslashr
+  - first:
+      74: 8510150600120665494
+    second: taunt
+  - first:
+      74: -1701133327714009894
+    second: disappear
+  - first:
+      74: 1826719447703197417
+    second: appear
+  - first:
+      74: 1535773301379052532
+    second: disappearlp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 68c3f9df593c6a24f9b06674ace82c51, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -42,16 +131,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: nwreadyl
       takeName: 
+      internalID: 0
       firstFrame: 10
       lastFrame: 40
       wrapMode: 0
@@ -80,6 +173,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwreadyr
       takeName: 
+      internalID: 0
       firstFrame: 50
       lastFrame: 80
       wrapMode: 0
@@ -108,6 +202,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwslashl
       takeName: 
+      internalID: 0
       firstFrame: 90
       lastFrame: 120
       wrapMode: 0
@@ -136,6 +231,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwstab
       takeName: 
+      internalID: 0
       firstFrame: 130
       lastFrame: 160
       wrapMode: 0
@@ -164,6 +260,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwcloseh
       takeName: 
+      internalID: 0
       firstFrame: 170
       lastFrame: 200
       wrapMode: 0
@@ -192,6 +289,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwclosel
       takeName: 
+      internalID: 0
       firstFrame: 210
       lastFrame: 240
       wrapMode: 0
@@ -220,6 +318,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwreach
       takeName: 
+      internalID: 0
       firstFrame: 250
       lastFrame: 279
       wrapMode: 0
@@ -248,6 +347,7 @@ ModelImporter:
     - serializedVersion: 16
       name: nwslashr
       takeName: 
+      internalID: 0
       firstFrame: 289
       lastFrame: 319
       wrapMode: 0
@@ -276,6 +376,7 @@ ModelImporter:
     - serializedVersion: 16
       name: taunt
       takeName: 
+      internalID: 0
       firstFrame: 329
       lastFrame: 419
       wrapMode: 0
@@ -304,6 +405,7 @@ ModelImporter:
     - serializedVersion: 16
       name: disappear
       takeName: 
+      internalID: 0
       firstFrame: 429
       lastFrame: 488
       wrapMode: 0
@@ -332,6 +434,7 @@ ModelImporter:
     - serializedVersion: 16
       name: appear
       takeName: 
+      internalID: 0
       firstFrame: 498
       lastFrame: 558
       wrapMode: 0
@@ -360,6 +463,7 @@ ModelImporter:
     - serializedVersion: 16
       name: disappearlp
       takeName: 
+      internalID: 0
       firstFrame: 568
       lastFrame: 569
       wrapMode: 0
@@ -391,13 +495,24 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -407,10 +522,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -420,14 +539,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

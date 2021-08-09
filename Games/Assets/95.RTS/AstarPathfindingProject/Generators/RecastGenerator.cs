@@ -1933,16 +1933,16 @@ namespace Pathfinding {
 					if (!b.Intersects(bounds)) continue;
 
 					// Sample the terrain heightmap
-					float[, ] heights = terrainData.GetHeights(0, 0, terrainData.heightmapWidth, terrainData.heightmapHeight);
+					float[, ] heights = terrainData.GetHeights(0, 0, terrainData.heightmapResolution, terrainData.heightmapResolution);
 
 					// Clamp to at least 1 since that's the resolution of the heightmap
 					terrainSampleSize = Math.Max(terrainSampleSize, 1);
 
-					int rwidth = terrainData.heightmapWidth;
-					int rheight = terrainData.heightmapHeight;
+					int rwidth = terrainData.heightmapResolution;
+					int rheight = terrainData.heightmapResolution;
 
-					int hWidth = (terrainData.heightmapWidth+terrainSampleSize-1) / terrainSampleSize + 1;
-					int hHeight = (terrainData.heightmapHeight+terrainSampleSize-1) / terrainSampleSize + 1;
+					int hWidth = (terrainData.heightmapResolution+terrainSampleSize-1) / terrainSampleSize + 1;
+					int hHeight = (terrainData.heightmapResolution+terrainSampleSize-1) / terrainSampleSize + 1;
 
 					// Create a mesh from the heightmap
 					var terrainVertices = new Vector3[hWidth*hHeight];

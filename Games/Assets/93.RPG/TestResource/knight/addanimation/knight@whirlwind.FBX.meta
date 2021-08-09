@@ -1,21 +1,79 @@
 fileFormatVersion: 2
 guid: b7753858688da46728b20f4d84fb01d1
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    4300000: knight_body
-    4300002: W_2hand
-    4300004: knight_head
-    4300006: knight_lower
-    4300008: knight_foot
-    4300010: knight_upper
-    4300012: knight_hand
-    4300014: knight_hair
-    4300016: knight_R_2hand
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: knight_body
+  - first:
+      43: 4300002
+    second: W_2hand
+  - first:
+      43: 4300004
+    second: knight_head
+  - first:
+      43: 4300006
+    second: knight_lower
+  - first:
+      43: 4300008
+    second: knight_foot
+  - first:
+      43: 4300010
+    second: knight_upper
+  - first:
+      43: 4300012
+    second: knight_hand
+  - first:
+      43: 4300014
+    second: knight_hair
+  - first:
+      43: 4300016
+    second: knight_R_2hand
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_R_2hand
+    second: {fileID: 2100000, guid: 623919347e2704a2490b0579f7c0b638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_foot
+    second: {fileID: 2100000, guid: 6d402319ed32148dfac62c92a310d68e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_hair
+    second: {fileID: 2100000, guid: 3369ef0c894054c6daea1209b6b65a31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_hand
+    second: {fileID: 2100000, guid: f16ff4742d6774e66b3a5a06421b3692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_head
+    second: {fileID: 2100000, guid: 16bdae0693d574c61a6977bbe02f2f6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_lower
+    second: {fileID: 2100000, guid: 76a8b3b2da8814c99b6eb56ff3b6b1f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_upper
+    second: {fileID: 2100000, guid: 8b6a188af81234704ab517bd616c45f2, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -28,12 +86,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -41,13 +102,24 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -57,10 +129,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 1
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -70,14 +146,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

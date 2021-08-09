@@ -1,43 +1,238 @@
 fileFormatVersion: 2
 guid: 4526ecfef2404904aad1f4996cf31f79
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    4300000: ignore_NGon01
-    4300002: pelvis_g
-    4300004: torso_g
-    4300006: lbicep_g
-    4300008: lforearm_g
-    4300010: lhand_g
-    4300012: lthumb_g
-    4300014: lpinky_g
-    4300016: lfinger_g
-    4300018: head_g
-    4300020: jaw_g
-    4300022: rbicep_g
-    4300024: rforearm_g
-    4300026: rhand_g
-    4300028: rthumb_g
-    4300030: rfinger_g
-    4300032: rpinky_g
-    4300034: lthigh_g
-    4300036: lcalf_g
-    4300038: lfoot_g
-    4300040: lfoot2_g
-    4300042: tail1
-    4300044: tail2
-    4300046: tail3
-    4300048: tail4
-    4300050: tail5
-    4300052: tailtip
-    4300054: rthigh_g
-    4300056: rcalf_g
-    4300058: rfoot_g
-    4300060: rfoot2_g
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: ignore_NGon01
+  - first:
+      43: 4300002
+    second: pelvis_g
+  - first:
+      43: 4300004
+    second: torso_g
+  - first:
+      43: 4300006
+    second: lbicep_g
+  - first:
+      43: 4300008
+    second: lforearm_g
+  - first:
+      43: 4300010
+    second: lhand_g
+  - first:
+      43: 4300012
+    second: lthumb_g
+  - first:
+      43: 4300014
+    second: lpinky_g
+  - first:
+      43: 4300016
+    second: lfinger_g
+  - first:
+      43: 4300018
+    second: head_g
+  - first:
+      43: 4300020
+    second: jaw_g
+  - first:
+      43: 4300022
+    second: rbicep_g
+  - first:
+      43: 4300024
+    second: rforearm_g
+  - first:
+      43: 4300026
+    second: rhand_g
+  - first:
+      43: 4300028
+    second: rthumb_g
+  - first:
+      43: 4300030
+    second: rfinger_g
+  - first:
+      43: 4300032
+    second: rpinky_g
+  - first:
+      43: 4300034
+    second: lthigh_g
+  - first:
+      43: 4300036
+    second: lcalf_g
+  - first:
+      43: 4300038
+    second: lfoot_g
+  - first:
+      43: 4300040
+    second: lfoot2_g
+  - first:
+      43: 4300042
+    second: tail1
+  - first:
+      43: 4300044
+    second: tail2
+  - first:
+      43: 4300046
+    second: tail3
+  - first:
+      43: 4300048
+    second: tail4
+  - first:
+      43: 4300050
+    second: tail5
+  - first:
+      43: 4300052
+    second: tailtip
+  - first:
+      43: 4300054
+    second: rthigh_g
+  - first:
+      43: 4300056
+    second: rcalf_g
+  - first:
+      43: 4300058
+    second: rfoot_g
+  - first:
+      43: 4300060
+    second: rfoot2_g
+  - first:
+      74: 2380093424485413529
+    second: ca1slashl
+  - first:
+      74: -4172983195683086900
+    second: ca1slashr
+  - first:
+      74: 7138990852165965336
+    second: ca1stab
+  - first:
+      74: 1269291237247466073
+    second: creach
+  - first:
+      74: 5983172034770491550
+    second: cconjure1
+  - first:
+      74: 6786336228483576364
+    second: ccastout
+  - first:
+      74: -6846647030772886427
+    second: cparryl
+  - first:
+      74: -5092934288737047324
+    second: cparryr
+  - first:
+      74: -5353982647650457796
+    second: cdodgelr
+  - first:
+      74: 2210681166969282622
+    second: cdodges
+  - first:
+      74: 6931160719321741474
+    second: creadyr
+  - first:
+      74: -7313952863377931054
+    second: creadyl
+  - first:
+      74: 1808086659295849718
+    second: cdamagel
+  - first:
+      74: 3707882192116755428
+    second: ckdbck
+  - first:
+      74: 6919008229843888595
+    second: ckdbckps
+  - first:
+      74: -3086302321123045075
+    second: ckdbckdie
+  - first:
+      74: -5435451959709744631
+    second: cguptokdb
+  - first:
+      74: 7403628056340760021
+    second: cgustandb
+  - first:
+      74: 1663689366530730524
+    second: cwalk
+  - first:
+      74: 624608396474594314
+    second: crun
+  - first:
+      74: -6074422118877171340
+    second: ccwalkf
+  - first:
+      74: 8877596732024880574
+    second: ccwalkb
+  - first:
+      74: 1240074186722387285
+    second: ccwalkl
+  - first:
+      74: -3727473046791165911
+    second: ccwalkr
+  - first:
+      74: 3411840488982202293
+    second: cpause1
+  - first:
+      74: -9005765542054228701
+    second: chturnl
+  - first:
+      74: -976413547404491693
+    second: chturnr
+  - first:
+      74: 4534527725823876997
+    second: ctaunt
+  - first:
+      74: -3623889012191663375
+    second: cdamager
+  - first:
+      74: -2791391022207216627
+    second: cdamages
+  - first:
+      74: 27806884924153103
+    second: ccloseh
+  - first:
+      74: 6379904783611886209
+    second: cclosel
+  - first:
+      74: 2685030321323130339
+    second: ckdbckdmg
+  - first:
+      74: -4656410212826221248
+    second: cgetmid
+  - first:
+      74: -4850516398340241264
+    second: ccastoutlp
+  - first:
+      74: -3005548868416128366
+    second: cdead
+  - first:
+      74: -159767668459940556
+    second: cappear
+  - first:
+      74: 4445824375653899637
+    second: cdisappear
+  - first:
+      74: -5041082039186810579
+    second: cgetmidlp
+  - first:
+      74: -6287355768538328817
+    second: cspasm
+  - first:
+      74: -6993590144124709102
+    second: cdisappearlp
+  - first:
+      74: 2326055093137863008
+    second: ccturnr
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: dffa36b2bfb02d04aa1ac5eb1f91c1b7, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -50,16 +245,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: ca1slashl
       takeName: 
+      internalID: 0
       firstFrame: 10
       lastFrame: 40
       wrapMode: 0
@@ -88,6 +287,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ca1slashr
       takeName: 
+      internalID: 0
       firstFrame: 50
       lastFrame: 80
       wrapMode: 0
@@ -116,6 +316,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ca1stab
       takeName: 
+      internalID: 0
       firstFrame: 90
       lastFrame: 120
       wrapMode: 0
@@ -144,6 +345,7 @@ ModelImporter:
     - serializedVersion: 16
       name: creach
       takeName: 
+      internalID: 0
       firstFrame: 130
       lastFrame: 160
       wrapMode: 0
@@ -172,6 +374,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cconjure1
       takeName: 
+      internalID: 0
       firstFrame: 170
       lastFrame: 210
       wrapMode: 0
@@ -200,6 +403,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccastout
       takeName: 
+      internalID: 0
       firstFrame: 220
       lastFrame: 235
       wrapMode: 0
@@ -228,6 +432,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cparryl
       takeName: 
+      internalID: 0
       firstFrame: 245
       lastFrame: 275
       wrapMode: 0
@@ -256,6 +461,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cparryr
       takeName: 
+      internalID: 0
       firstFrame: 285
       lastFrame: 315
       wrapMode: 0
@@ -284,6 +490,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdodgelr
       takeName: 
+      internalID: 0
       firstFrame: 325
       lastFrame: 355
       wrapMode: 0
@@ -312,6 +519,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdodges
       takeName: 
+      internalID: 0
       firstFrame: 365
       lastFrame: 395
       wrapMode: 0
@@ -340,6 +548,7 @@ ModelImporter:
     - serializedVersion: 16
       name: creadyr
       takeName: 
+      internalID: 0
       firstFrame: 405
       lastFrame: 465
       wrapMode: 0
@@ -368,6 +577,7 @@ ModelImporter:
     - serializedVersion: 16
       name: creadyl
       takeName: 
+      internalID: 0
       firstFrame: 475
       lastFrame: 535
       wrapMode: 0
@@ -396,6 +606,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdamagel
       takeName: 
+      internalID: 0
       firstFrame: 545
       lastFrame: 554
       wrapMode: 0
@@ -424,6 +635,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ckdbck
       takeName: 
+      internalID: 0
       firstFrame: 564
       lastFrame: 594
       wrapMode: 0
@@ -452,6 +664,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ckdbckps
       takeName: 
+      internalID: 0
       firstFrame: 604
       lastFrame: 634
       wrapMode: 0
@@ -480,6 +693,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ckdbckdie
       takeName: 
+      internalID: 0
       firstFrame: 644
       lastFrame: 673
       wrapMode: 0
@@ -508,6 +722,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cguptokdb
       takeName: 
+      internalID: 0
       firstFrame: 683
       lastFrame: 713
       wrapMode: 0
@@ -536,6 +751,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cgustandb
       takeName: 
+      internalID: 0
       firstFrame: 723
       lastFrame: 753
       wrapMode: 0
@@ -564,6 +780,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cwalk
       takeName: 
+      internalID: 0
       firstFrame: 763
       lastFrame: 803
       wrapMode: 0
@@ -592,6 +809,7 @@ ModelImporter:
     - serializedVersion: 16
       name: crun
       takeName: 
+      internalID: 0
       firstFrame: 813
       lastFrame: 833
       wrapMode: 0
@@ -620,6 +838,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccwalkf
       takeName: 
+      internalID: 0
       firstFrame: 843
       lastFrame: 858
       wrapMode: 0
@@ -648,6 +867,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccwalkb
       takeName: 
+      internalID: 0
       firstFrame: 868
       lastFrame: 883
       wrapMode: 0
@@ -676,6 +896,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccwalkl
       takeName: 
+      internalID: 0
       firstFrame: 893
       lastFrame: 908
       wrapMode: 0
@@ -704,6 +925,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccwalkr
       takeName: 
+      internalID: 0
       firstFrame: 918
       lastFrame: 933
       wrapMode: 0
@@ -732,6 +954,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cpause1
       takeName: 
+      internalID: 0
       firstFrame: 943
       lastFrame: 1003
       wrapMode: 0
@@ -760,6 +983,7 @@ ModelImporter:
     - serializedVersion: 16
       name: chturnl
       takeName: 
+      internalID: 0
       firstFrame: 1013
       lastFrame: 1043
       wrapMode: 0
@@ -788,6 +1012,7 @@ ModelImporter:
     - serializedVersion: 16
       name: chturnr
       takeName: 
+      internalID: 0
       firstFrame: 1053
       lastFrame: 1083
       wrapMode: 0
@@ -816,6 +1041,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ctaunt
       takeName: 
+      internalID: 0
       firstFrame: 1093
       lastFrame: 1153
       wrapMode: 0
@@ -844,6 +1070,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdamager
       takeName: 
+      internalID: 0
       firstFrame: 1163
       lastFrame: 1172
       wrapMode: 0
@@ -872,6 +1099,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdamages
       takeName: 
+      internalID: 0
       firstFrame: 1182
       lastFrame: 1191
       wrapMode: 0
@@ -900,6 +1128,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccloseh
       takeName: 
+      internalID: 0
       firstFrame: 1201
       lastFrame: 1231
       wrapMode: 0
@@ -928,6 +1157,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cclosel
       takeName: 
+      internalID: 0
       firstFrame: 1241
       lastFrame: 1271
       wrapMode: 0
@@ -956,6 +1186,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ckdbckdmg
       takeName: 
+      internalID: 0
       firstFrame: 1281
       lastFrame: 1291
       wrapMode: 0
@@ -984,6 +1215,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cgetmid
       takeName: 
+      internalID: 0
       firstFrame: 1301
       lastFrame: 1316
       wrapMode: 0
@@ -1012,6 +1244,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccastoutlp
       takeName: 
+      internalID: 0
       firstFrame: 1326
       lastFrame: 1352
       wrapMode: 0
@@ -1040,6 +1273,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdead
       takeName: 
+      internalID: 0
       firstFrame: 1362
       lastFrame: 1363
       wrapMode: 0
@@ -1068,6 +1302,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cappear
       takeName: 
+      internalID: 0
       firstFrame: 1373
       lastFrame: 1433
       wrapMode: 0
@@ -1096,6 +1331,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdisappear
       takeName: 
+      internalID: 0
       firstFrame: 1443
       lastFrame: 1503
       wrapMode: 0
@@ -1124,6 +1360,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cgetmidlp
       takeName: 
+      internalID: 0
       firstFrame: 1513
       lastFrame: 1514
       wrapMode: 0
@@ -1152,6 +1389,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cspasm
       takeName: 
+      internalID: 0
       firstFrame: 1524
       lastFrame: 1554
       wrapMode: 0
@@ -1180,6 +1418,7 @@ ModelImporter:
     - serializedVersion: 16
       name: cdisappearlp
       takeName: 
+      internalID: 0
       firstFrame: 1564
       lastFrame: 1624
       wrapMode: 0
@@ -1208,6 +1447,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ccturnr
       takeName: 
+      internalID: 0
       firstFrame: 1634
       lastFrame: 1649
       wrapMode: 0
@@ -1239,13 +1479,24 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -1255,10 +1506,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -1268,14 +1523,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

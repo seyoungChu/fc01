@@ -1,21 +1,79 @@
 fileFormatVersion: 2
 guid: 5e431dcd0f2f2d14596f498cc060d7af
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    4300000: knight_body
-    4300002: W_2hand
-    4300004: knight_head
-    4300006: knight_lower
-    4300008: knight_foot
-    4300010: knight_upper
-    4300012: knight_hand
-    4300014: knight_hair
-    4300016: knight_R_2hand
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: knight_body
+  - first:
+      43: 4300002
+    second: W_2hand
+  - first:
+      43: 4300004
+    second: knight_head
+  - first:
+      43: 4300006
+    second: knight_lower
+  - first:
+      43: 4300008
+    second: knight_foot
+  - first:
+      43: 4300010
+    second: knight_upper
+  - first:
+      43: 4300012
+    second: knight_hand
+  - first:
+      43: 4300014
+    second: knight_hair
+  - first:
+      43: 4300016
+    second: knight_R_2hand
+  - first:
+      74: -5252816984213320552
+    second: idle
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_R_2hand
+    second: {fileID: 2100000, guid: 83a69bb55be0f44c3b5cf3e86b85fe86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_foot
+    second: {fileID: 2100000, guid: 444964eb4c8c14e80ae7895fc46e58db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_hair
+    second: {fileID: 2100000, guid: 3cb95afb4c7a34a5e80048dab73da24d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_hand
+    second: {fileID: 2100000, guid: aa1c0744a240749b79458d7308473507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_head
+    second: {fileID: 2100000, guid: 788c5f2e8ea4d4b04b1b92d4894c3649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_lower
+    second: {fileID: 2100000, guid: e45d85edf12734454810c8de9430058e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knight_upper
+    second: {fileID: 2100000, guid: f55b5300b65fd4645bb10e2687b14ae9, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -28,16 +86,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: idle
       takeName: 
+      internalID: 0
       firstFrame: 0
       lastFrame: 26
       wrapMode: 0
@@ -69,13 +131,24 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -85,10 +158,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -98,14 +175,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
